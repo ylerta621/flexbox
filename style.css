@@ -1,0 +1,177 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+.flexbox-container{
+  height: 600px;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  flex-wrap: wrap;
+}
+
+.flexbox-item{
+  width: 200px;
+  margin: 10px;
+}
+
+.flexbox-item-1{
+  min-height: 200px;
+  align-self: center;
+}
+
+.flexbox-item-2{
+  min-height: 100px;
+  justify-content: left;
+}
+
+.flexbox-item-3{
+  flex-direction: left;
+  width: auto;
+}
+
+
+
+.containter{
+  display: flex;
+justify-content: space-between;
+align-content: start;
+}
+
+.item-1{
+width: 200px;
+height: 300px;
+}
+
+.item-2{
+  width: 180px;
+  height: 300px;
+}
+
+.item-3{
+ width: 200px;
+ height: 300px
+}
+
+
+.flex-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+html {
+  background-color:  #eae2b7;
+}
+body {
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Set the font family for any h1, h2, or h3 heading */
+h1 { text-align: center;}
+h2{
+  text-align: left;
+}
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+
+}
+
+h4{
+  text-indent: 60px;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 600px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+/* Add your solution below */
+
+.image-circle {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+nav {
+  text-align: center;
+  }
+
+ul {
+  text-align: left;
+}
+
+.about {
+  padding: 10px;
+}
+
+footer{
+  margin-top: 250px;
+  text-align: center;
+}
+
+.aboutAthur {
+ text-align: left;
+}
+
+.centerPicture{
+  text-align: center;
+}
+
+ol{
+  list-style-position: inside;
+  }
+  .listItems{text-align: left;
+  }
+
+a{
+  color: #d62828;
+  
+}
+
+a:hover{
+  color: #f77f00;
+}
+
