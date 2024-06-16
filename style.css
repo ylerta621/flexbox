@@ -28,7 +28,7 @@
 .flexbox-item-3{
   flex-direction: left;
   width: auto;
-}
+} 
 
 
 
@@ -107,7 +107,7 @@ article div {
 
 p {
   line-height: 1.5;
-  text-align: left;
+  text-align: center;
 }
 
 /* The div container constrains the content width within the main container to 600px */
